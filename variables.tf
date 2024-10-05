@@ -26,5 +26,5 @@ variable "vpc_cidr_block" {
 #change this value to the ip address of your device
 variable "ec2_cidr_blocks" {
   type = string
-  default = "value1"
+  default = "10.0.3.0/24"
 }
