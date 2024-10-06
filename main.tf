@@ -13,7 +13,7 @@ resource "aws_vpc" "main" {
 
 #Configure an S3 account
 resource "aws_s3_bucket" "main" {
-    bucket = var.aws_s3_bucket_name
+  bucket = var.aws_s3_bucket_name
 }
 
 #Configure a load balancer
